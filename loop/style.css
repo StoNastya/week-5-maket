@@ -1,0 +1,121 @@
+body {
+    background-color: #F9F6F1;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px 50px 0px 50px; 
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.menu {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #D7B399;
+    color: white;
+    border: none;
+    width: 240px;
+    height: 55px;
+}
+
+.old_price {
+    text-decoration: line-through;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.new_price {
+    font-size: 42px;
+    color: tomato;
+    font-weight: bold;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px;
+
+}
+
+.ofer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    padding: 200px 0px 0px 0px; 
+}
+
+#slider {
+    margin: 5px;
+}
+#slider2 {
+    margin: 5px;
+}
+
+.foto {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.basket {
+    display: flex;
+    align-items: center;
+}
+
+.general {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.prise {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 0px 200px 0px; 
+}
+
+.logo {
+    display: flex;
+    align-items: center
+}
+
+nav .menu:hover {
+    text-decoration: underline;
+}
+
+.basket:hover {
+    background-color: white;
+    height: 30px;
+
+}
+
+.button:hover {
+    background-color: tomato;
+}
